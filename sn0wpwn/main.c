@@ -168,7 +168,7 @@ int main(int argc, const char * argv[]) {
     
     printf("[*] Sending exploit payload\n");
     
-    // irecv_send_file(client, "bin/payload", 1);
+    irecv_send_file(client, "bin/payload", 1);
     
     system("rm bin/payload");
     
